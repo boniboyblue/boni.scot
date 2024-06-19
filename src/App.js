@@ -1,14 +1,11 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Christopher Boni</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<div id="wrapper">
+import './main.css';
+import './noscript.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+      <div id="wrapper">
 			<div id="bg"></div>
 			<div id="overlay"></div>
 			<div id="main">
@@ -27,13 +24,12 @@
 					<footer id="footer">
 						<span class="copyright">&copy; Christopher Boni</span>
 					</footer>
-
 			</div>
 		</div>
-		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
-	</body>
-</html>
+      </header>
+    </div>
+    
+  );
+}
+
+export default App;
