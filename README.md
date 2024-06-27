@@ -14,10 +14,4 @@ Can be accessed via https://boni.scot
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
-
-
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+[MIT](https://gitlab.com/boniboyblue/boni.scot/-/blob/main/LICENSE)
