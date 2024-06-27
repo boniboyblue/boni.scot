@@ -14,7 +14,7 @@ Can be accessed via https://boni.scot
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://gitlab.com/boniboyblue/boni.scot/-/blob/main/LICENSE)
 
 
 ## Tech Stack
