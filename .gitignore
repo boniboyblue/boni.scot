@@ -11,6 +11,9 @@
 # production
 /build
 
+# Google IDX
+/.idx
+
 # misc
 .DS_Store
 .env.local
